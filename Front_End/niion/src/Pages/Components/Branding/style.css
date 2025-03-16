@@ -1,0 +1,70 @@
+.brand,
+.brand * {
+  box-sizing: border-box;
+}
+.brand {
+  background: #1d5b37;
+  padding: 64px 104px 64px 104px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.label {
+  color: var(--base-white, #ffffff);
+  text-align: center;
+  font-family: "PlusJakartaSans-Bold", sans-serif;
+  font-size: 24px;
+  line-height: 155%;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+}
+.logos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.press-logo {
+  flex-shrink: 0;
+  width: 274.17px;
+  height: 40px;
+  position: relative;
+  overflow: visible;
+}
+.press-logo2 {
+  flex-shrink: 0;
+  width: 238.33px;
+  height: 40px;
+  position: relative;
+  overflow: visible;
+}
+.press-logo3 {
+  flex-shrink: 0;
+  width: 180px;
+  height: 40px;
+  position: relative;
+  overflow: visible;
+}
+.press-logo4 {
+  flex-shrink: 0;
+  width: 165px;
+  height: 40px;
+  position: relative;
+  overflow: visible;
+}
+.press-logo5 {
+  flex-shrink: 0;
+  width: 115px;
+  height: 40px;
+  position: relative;
+  overflow: visible;
+}

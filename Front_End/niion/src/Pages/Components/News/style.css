@@ -1,0 +1,298 @@
+.newsletter-section,
+.newsletter-section * {
+  box-sizing: border-box;
+}
+.newsletter-section {
+  padding: 80px 104px 80px 104px;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.newsletter-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.frame-6 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: relative;
+}
+.footer-title {
+  color: #1d5b37;
+  text-align: left;
+  font-family: "PlusJakartaSans-Medium", sans-serif;
+  font-size: 80px;
+  font-weight: 500;
+  position: relative;
+  width: 560px;
+}
+.newsletter-column {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 778px;
+  position: relative;
+}
+.newsletter-title {
+  color: var(--base-black, #000000);
+  text-align: left;
+  font-family: "PlusJakartaSans-SemiBold", sans-serif;
+  font-size: 52px;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.newsletter-text {
+  color: var(--gray-500, #667085);
+  text-align: left;
+  font-family: "PlusJakartaSans-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.button-base {
+  background: #d1f349;
+  border-radius: 58px;
+  padding: 8px 8px 8px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.button-text {
+  color: var(--base-black, #000000);
+  text-align: left;
+  font-family: "Satoshi-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: 700;
+  position: relative;
+}
+.button-icon-container {
+  background: var(--base-black, #000000);
+  border-radius: 100px;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 1px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.button-icon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.stories {
+  background: var(--background-white, #ffffff);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.tag-container {
+  background: linear-gradient(
+    108.46deg,
+    rgba(255, 255, 255, 0.26) 0%,
+    rgba(255, 255, 255, 0.07) 100%
+  );
+  border-radius: 50px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: absolute;
+  left: 16px;
+  top: 24px;
+  backdrop-filter: blur(10px);
+}
+.tag-text {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PlusJakartaSans-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  position: relative;
+}
+.heading-and-subheading {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.heading {
+  color: #1d5b37;
+  text-align: left;
+  font-family: var(
+    --text-md-medium-font-family,
+    "InterTight-Medium",
+    sans-serif
+  );
+  font-size: var(--text-md-medium-font-size, 16px);
+  line-height: var(--text-md-medium-line-height, 24px);
+  font-weight: var(--text-md-medium-font-weight, 500);
+  position: relative;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.story-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.heading2 {
+  color: var(--gray-900, #101828);
+  text-align: left;
+  font-family: var(
+    --display-xs-medium-font-family,
+    "InterTight-Medium",
+    sans-serif
+  );
+  font-size: var(--display-xs-medium-font-size, 24px);
+  line-height: var(--display-xs-medium-line-height, 32px);
+  font-weight: var(--display-xs-medium-font-weight, 500);
+  position: relative;
+  align-self: stretch;
+}
+.heading3 {
+  color: var(--gray-500, #667085);
+  text-align: left;
+  font-family: var(
+    --text-md-regular-font-family,
+    "InterDisplay-Regular",
+    sans-serif
+  );
+  font-size: var(--text-md-regular-font-size, 16px);
+  line-height: var(--text-md-regular-line-height, 24px);
+  font-weight: var(--text-md-regular-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+  height: 51px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.tag-container2 {
+  background: linear-gradient(
+    108.46deg,
+    rgba(255, 255, 255, 0.26) 0%,
+    rgba(255, 255, 255, 0.07) 100%
+  );
+  border-radius: 50px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: absolute;
+  left: 16.33px;
+  top: 24px;
+  backdrop-filter: blur(10px);
+}
+.tag-container3 {
+  background: linear-gradient(
+    108.46deg,
+    rgba(255, 255, 255, 0.26) 0%,
+    rgba(255, 255, 255, 0.07) 100%
+  );
+  border-radius: 50px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: absolute;
+  left: 15.67px;
+  top: 24px;
+  backdrop-filter: blur(10px);
+}
+
+.image2 {
+    background: linear-gradient(
+      to left,
+      rgba(13, 13, 18, 0.14),
+      rgba(13, 13, 18, 0.14)
+    );
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 426px;
+    position: relative;
+    overflow: hidden;
+  }
+.image2 {
+    background: url(../../Assets/image4.png) center;
+    background-size: cover;
+}
+
