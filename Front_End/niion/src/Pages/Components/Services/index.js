@@ -1,13 +1,14 @@
 import { ScrollContainer, ScrollPage, Animator, batch, Fade, FadeIn, MoveIn, MoveOut, Sticky, StickyIn, ZoomIn, Move, FadeOut } from "react-scroll-motion";
 import MinusSVG from "../../Assets/SVGs/minus.SVG";
 import PlusSVG from "../../Assets/SVGs/plus.SVG";
+import team_img from "../../Assets/image12-removebg-preview.png";
 import team_vid from "../../Assets/vid1.mp4";
 import React from "react";
 import "./style.css";
 
 const Services = () => {
     return (
-    <ScrollPage style={{ height: "1700px" }} page={3} animation={batch(FadeIn(0, 200), FadeOut(0, 200))}>
+    <ScrollPage style={{ height: "2300px" }} page={3} animation={batch(FadeIn(0, 200), FadeOut(0, 200))}>
         <div class="service">
         <div class="content">
             <div class="footer-title">Our Service</div>
@@ -43,7 +44,7 @@ const Services = () => {
                 <div class="feature-description">
                 Our team is built on collaboration, dedication, and expertise. Each member brings unique skills and creativity, working together seamlessly to achieve our goals. With a shared passion for excellence, we support and inspire one another, ensuring success in every project we take on. Meet the best team members who make every challenge an opportunity and every idea a reality!
                 </div>
-                {/* <img class="image" src="image0.png" /> */}
+                <img class="image" src={team_img} />
                 <video className="video" src={team_vid} autoPlay loop muted playsInline />
                 </div>
                 <div class="add">

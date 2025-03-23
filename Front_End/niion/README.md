@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/29113f22-a5eb-4579-8e6e-fd1098debd65/deploy-status)](https://app.netlify.com/sites/niion-inc/deploys)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
